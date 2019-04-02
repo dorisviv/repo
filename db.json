@@ -1,52 +1,25 @@
 {
-  "identities": [
-    {
-      "identity": {
-        "id": 1,
-        "access": {
-          "application": {
-            "name": "cardswipe",
-            "roles": [
-              "ROLE_ADMIN"
-            ]
-          }
-        },
-        "organization": {
-          "name": "ITSS"
-        },
-        "person": {
-          "euid": "abc123",
-          "emplid": "12345678",
-          "firstName": "AdminFirst",
-          "lastName": "AdminLast"
-        }
+  "identity": {
+    "id": 1,
+    "access": {
+      "application": {
+        "name": "myapp",
+        "roles": [
+          "ROLE_ADMIN"
+        ]
       }
     },
-    {
-      "identity": {
-        "id": 2,
-        "access": {
-          "application": {
-            "name": "cardswipe",
-            "roles": [
-              "ROLE_USER"
-            ]
-          }
-        },
-        "organization": {
-          "name": "ITSS"
-        },
-        "person": {
-          "euid": "def234",
-          "emplid": "23456789",
-          "firstName": "UserFirst",
-          "lastName": "UserLast"
-        }
-      }
+    "organization": {
+      "name": "My Org"
+    },
+    "person": {
+      "euid": "abc123",
+      "emplid": "12345678",
+      "firstName": "AdminFirst",
+      "lastName": "AdminLast"
     }
-  ]
+  }
 }
-
 
 
 
