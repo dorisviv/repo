@@ -2,10 +2,24 @@
   "identities": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "identity"
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "access": {
+    "application": {
+      "name": "myapp",
+      "roles": [
+        "ROLE_ADMIN"
+      ]
+    }
+  },
+  "organization": {
+    "name": "My Org"
+  },
+  "person": {
+    "euid": "abc123",
+    "emplid": "12345678",
+    "firstName": "AdminFirst",
+    "lastName": "AdminLast"
   }
 }
