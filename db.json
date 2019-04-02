@@ -7,19 +7,22 @@
   ],
   "access": {
     "application": {
-      "name": "myapp",
+      "name": "cardswipe",
       "roles": [
         "ROLE_ADMIN"
       ]
     }
   },
   "organization": {
-    "name": "My Org"
+    "name": "ITSS"
   },
   "person": {
     "euid": "abc123",
     "emplid": "12345678",
     "firstName": "AdminFirst",
     "lastName": "AdminLast"
+  },
+  "profile": {
+    "name": "typicode"
   }
 }
