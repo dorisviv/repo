@@ -1,25 +1,11 @@
 {
-  "identity": {
-    "id": 1,
-    "access": {
-      "application": {
-        "name": "myapp",
-        "roles": [
-          "ROLE_ADMIN"
-        ]
-      }
-    },
-    "organization": {
-      "name": "My Org"
-    },
-    "person": {
-      "euid": "abc123",
-      "emplid": "12345678",
-      "firstName": "AdminFirst",
-      "lastName": "AdminLast"
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
     }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
-
-
-
