@@ -1,46 +1,24 @@
 {
-  "identities": [
+  "persons": [
     {
       "id": 1,
-      "title": "identity1",
-      "access": {
-        "application": {
-          "name": "myapp",
-          "roles": [
-            "ROLE_ADMIN"
-          ]
-        }
-      },
-      "organization": {
-        "name": "My Org"
-      },
-      "person": {
-        "euid": "abc123",
-        "emplid": "12345678",
-        "firstName": "AdminFirst",
-        "lastName": "AdminLast"
-      }
+      "euid": "admin",
+      "emplid": "12345678",
+      "firstName": "AdminFirst",
+      "lastName": "AdminLast",
+      "roles": [
+        "ROLE_ADMIN"
+      ]
     },
     {
       "id": 2,
-      "title": "identity2",
-      "access": {
-        "application": {
-          "name": "myapp",
-          "roles": [
-            "ROLE_USER"
-          ]
-        }
-      },
-      "organization": {
-        "name": "My Org"
-      },
-      "person": {
-        "euid": "bcd234",
-        "emplid": "23456789",
-        "firstName": "UserFirst",
-        "lastName": "UserLast"
-      }
+      "euid": "user",
+      "emplid": "23456789",
+      "firstName": "UserFirst",
+      "lastName": "UserLast",
+      "roles": [
+        "ROLE_USER"
+      ]
     }
   ]
 }
