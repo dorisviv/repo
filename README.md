@@ -1,6 +1,6 @@
 # my-json-server
 
-1. Create a JSON object in GitHub, with the exact path (dorisviv = your user):
+1. Create a public JSON object in GitHub, with the exact path (dorisviv = your user):
 
 https://github.com/dorisviv/repo/blob/master/db.json
 
